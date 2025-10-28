@@ -1,0 +1,7 @@
+{
+  "name": "Student Attendance Tracker",
+  "description": "An application for students to record and track their class attendance by entering their personal details and semester timetable. Includes an AI-powered study tip generator and GPS-based attendance verification.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
