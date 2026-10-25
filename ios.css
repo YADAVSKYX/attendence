@@ -1,0 +1,164 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  color: #1c1c1e;
+  background: #f2f2f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(0, 122, 255, 0.11), transparent 34rem),
+    #f2f2f7;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  min-height: 44px;
+  -webkit-touch-callout: none;
+}
+
+.ios-app {
+  min-height: 100vh;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.ios-setup {
+  max-width: 760px !important;
+  border: 1px solid rgba(60, 60, 67, 0.12) !important;
+  border-radius: 28px !important;
+  background: rgba(255, 255, 255, 0.78) !important;
+  box-shadow: 0 24px 70px rgba(60, 60, 67, 0.12) !important;
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+}
+
+.ios-setup h1,
+.ios-setup h2,
+.ios-setup h3 {
+  letter-spacing: -0.035em;
+}
+
+.ios-setup input,
+.ios-setup select {
+  min-height: 48px;
+  border: 1px solid rgba(60, 60, 67, 0.18) !important;
+  border-radius: 14px !important;
+  background: rgba(242, 242, 247, 0.78) !important;
+  color: #1c1c1e !important;
+  outline: none;
+}
+
+.ios-setup input:focus,
+.ios-setup select:focus {
+  border-color: #007aff !important;
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.14);
+}
+
+.ios-setup button {
+  border-radius: 14px !important;
+  box-shadow: none !important;
+}
+
+.ios-dashboard {
+  color: #1c1c1e !important;
+}
+
+.ios-dashboard [class*="bg-[#18284d]"],
+.ios-dashboard [class*="bg-[#151c31]"],
+.ios-dashboard [class*="bg-[#23204a]"],
+.ios-dashboard [class*="bg-[#171a35]"] {
+  border-color: rgba(60, 60, 67, 0.12) !important;
+  background: rgba(255, 255, 255, 0.78) !important;
+  box-shadow: 0 14px 38px rgba(60, 60, 67, 0.09) !important;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.ios-dashboard [class*="bg-white/5"],
+.ios-dashboard [class*="bg-white/[0.03]"],
+.ios-dashboard [class*="bg-white/10"] {
+  background: rgba(118, 118, 128, 0.10) !important;
+}
+
+.ios-dashboard [class*="border-white/10"] {
+  border-color: rgba(60, 60, 67, 0.12) !important;
+}
+
+.ios-dashboard [class*="text-white"] {
+  color: #1c1c1e !important;
+}
+
+.ios-dashboard [class*="text-slate-100"],
+.ios-dashboard [class*="text-slate-200"],
+.ios-dashboard [class*="text-slate-300"] {
+  color: #3a3a3c !important;
+}
+
+.ios-dashboard [class*="text-slate-400"],
+.ios-dashboard [class*="text-slate-500"] {
+  color: #8e8e93 !important;
+}
+
+.ios-dashboard [class*="bg-cyan-300"] {
+  background: #007aff !important;
+  color: #fff !important;
+}
+
+.ios-dashboard [class*="text-cyan-300"],
+.ios-dashboard [class*="text-cyan-200"] {
+  color: #007aff !important;
+}
+
+.ios-dashboard [class*="bg-emerald-400"] {
+  background: #34c759 !important;
+}
+
+.ios-dashboard [class*="text-emerald-300"] {
+  color: #248a3d !important;
+}
+
+.ios-dashboard [class*="bg-red-400"] {
+  background: #ff3b30 !important;
+}
+
+.ios-dashboard [class*="text-red-200"],
+.ios-dashboard [class*="text-red-300"] {
+  color: #d70015 !important;
+}
+
+.ios-dashboard [class*="bg-violet-300"] {
+  background: #5856d6 !important;
+  color: #fff !important;
+}
+
+.ios-dashboard [class*="text-violet-100"],
+.ios-dashboard [class*="text-violet-200"],
+.ios-dashboard [class*="text-violet-300"] {
+  color: #5856d6 !important;
+}
+
+.ios-dashboard [class*="bg-yellow-400"] {
+  background: rgba(255, 204, 0, 0.14) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

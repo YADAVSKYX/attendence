@@ -36,7 +36,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen font-sans text-slate-800 dark:text-slate-200">
+    <div className="ios-app min-h-screen font-sans text-slate-800 dark:text-slate-200">
       <div className="container mx-auto p-4 md:p-8">
         {!profile || timetable.length === 0 ? (
           <SetupWizard onSetupComplete={handleSetupComplete} />

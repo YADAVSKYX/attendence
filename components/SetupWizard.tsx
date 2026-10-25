@@ -179,7 +179,7 @@ const SetupWizard: React.FC<SetupWizardProps> = ({ onSetupComplete }) => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6 md:p-10 transition-all duration-300">
+    <div className="ios-setup max-w-4xl mx-auto bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6 md:p-10 transition-all duration-300">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-slate-800 dark:text-white mb-2">Welcome!</h1>
       <p className="text-center text-slate-500 dark:text-slate-400 mb-8">Let's set up your attendance tracker.</p>
 
